@@ -3,9 +3,19 @@
 ## Reference
 
 - paper :  https://arxiv.org/abs/1703.10717
-- mushoku github code : https://github.com/musyoku/began
+- hvy github code : https://github.com/hvy/chainer-began
 
 ## 目的
 
-GANの勉強
-今回はまねぶしました。
+まねぶ勉強法でGANの勉強中
+
+## Train
+
+```python
+python began.py
+```
+
+GPUを使う場合は`--gpu`で設定してください
+```python
+python began.py --gpu 0
+```
